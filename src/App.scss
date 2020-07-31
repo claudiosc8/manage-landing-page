@@ -70,6 +70,9 @@ h2 {
 }
 .navbar {
   justify-content: space-between;
+  .background {
+    display: none;
+  }
   .navbar-nav {
     .nav-link {
       font-size: 13px;
@@ -80,6 +83,52 @@ h2 {
       &:hover {
         color: $Dark-Grayish-Blue;
       }
+    }
+  }
+}
+
+button.navbar-toggler {
+  border:none;
+  outline: none;
+  box-shadow:none;
+  z-index: 5;
+  *:focus {
+    border:none;
+    outline: none;
+    box-shadow:none;
+  }
+  &.active {
+    .navbar-toggler-icon {
+      background-color: transparent;
+      &:after {
+        transform: translateY(-7px) rotate(45deg)
+      }
+      &:before {
+        transform: translateY(7px) rotate(-45deg)
+      }
+    }
+  }
+  .navbar-toggler-icon {
+    background-image: none;
+    width:24px;
+    height:4px;
+    background-color: $Very-Dark-Blue;
+    position: relative;
+    transition: 0.2s ease all;
+    &:after, &:before {
+      content: '';
+      width:24px;
+      height:4px;
+      background-color: $Very-Dark-Blue;
+      position: absolute;
+      left:0;
+      transition: 0.2s ease all;
+    }
+    &:after {
+      top:7px;
+    }
+    &:before {
+      top:-7px;
     }
   }
 }
@@ -522,4 +571,53 @@ footer {
     padding-top:40px;
     padding-bottom:48px;
   }
+
+  nav.navigation {
+    display: none;
+    &.show {
+      display: block;
+      position:fixed;
+      top:0;
+      left:0;
+      width:100vw;
+      height: 100vh;
+      padding:103px 24px;
+      z-index: 2;
+      .background {
+        display: block;
+        background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+        position:fixed;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        animation-name: fade;
+        animation-duration: .2s;
+      }
+      .navbar-nav {
+        background-color:#fff;
+        border-radius:4px;
+        display: flex;
+        flex-direction: column;
+        padding:30px;
+        animation-name: fade;
+        animation-duration: .5s;
+        .nav-link {
+          flex-basis: 100%;
+          text-align: center;
+          padding:14px;
+          font-size: 16px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  @keyframes fade {
+    from {opacity: 0}
+    to {opacity: 1}
+  }
+
 }
+

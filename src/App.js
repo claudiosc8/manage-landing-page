@@ -3,7 +3,7 @@ import './App.scss';
 import Illustration from './images/illustration-intro.svg'
 import {features, testimonials} from './data'
 import TestimonialsSlider from './Testimonials'
-import {Navbar, Nav, Button, Container, Row, Col} from 'react-bootstrap/'
+import {Nav, Button, Container, Row, Col} from 'react-bootstrap/'
 import Facebook from './images/icon-facebook.svg'
 import Pinterest from './images/icon-pinterest.svg'
 import Twitter from './images/icon-twitter.svg'
@@ -11,6 +11,7 @@ import Youtube from './images/icon-youtube.svg'
 import Instagram from './images/icon-instagram.svg'
 import SubscribeForm from './SubscribeForm'
 import Logo from './Logo'
+import Navbar from './Navbar'
 
 function App() {
 
@@ -22,22 +23,7 @@ function App() {
         <Container>
           <Row>
             <Col>
-            <Navbar expand="md">
-              <div className={`navbar-brand`}><Logo /></div>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                  <Nav>
-                      <div className='nav-link'>Pricing</div>
-                      <div className='nav-link'>Product</div>
-                      <div className='nav-link'>About Us</div>
-                      <div className='nav-link'>Careers</div>
-                      <div className='nav-link'>Community</div>
-                  </Nav>
-                </Navbar.Collapse>
-                <div className='d-none d-md-block'>
-                  <Button>Get started</Button>
-                </div>
-            </Navbar>
+              <Navbar />
             </Col>
           </Row>
         </Container>
