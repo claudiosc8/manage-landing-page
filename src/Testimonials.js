@@ -28,7 +28,7 @@ function Testimonials({data}) {
             return <Slide  key={index} index={index+1} className='testimonial-slide'>
               <div className='testimonial-outer'>
                 <div className='testimonial-inner'>
-                  <div className='testimonial-image'><img src={item.image} alt={item.name} /></div>
+                  <div className='testimonial-image'><img src={item.image} alt={item.author} /></div>
                   <div className='testimonial-name'>{item.author}</div>
                   <div className='testimonial-quote'>{item.text}</div>
                 </div>

@@ -16,7 +16,7 @@ function SubscribeForm() {
   return (
   	<Form inline onSubmit={onSubmit}>
   		<div className='form-input-wrapper'>
-		<FormControl ref={inputRef} type="text" placeholder="Updates in your inbox…" isInvalid={error}/>
+		<FormControl ref={inputRef} type="text" aria-label='subscribe-input' placeholder="Updates in your inbox…" isInvalid={error}/>
 		<Form.Control.Feedback type="invalid">
         Please insert a valid email
       	</Form.Control.Feedback>
