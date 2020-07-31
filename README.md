@@ -2,7 +2,6 @@
 
 **Check the deployed app [here](https://manage-landing-page-vert.vercel.app)**
 
-![Design preview for the Manage landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
