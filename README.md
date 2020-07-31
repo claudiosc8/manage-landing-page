@@ -3,6 +3,7 @@
 **Check the deployed app [here](https://manage-landing-page-vert.vercel.app)**
 
 
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
