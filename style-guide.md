@@ -11,27 +11,31 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Red: hsl(0, 100%, 68%)
+Bright Red: hsl(12, 88%, 59%)
+Dark Blue: hsl(228, 39%, 23%)
 
 ### Neutral
 
-- Very Dark Blue: hsl(230, 29%, 20%)
-- Dark Grayish Blue: hsl(230, 11%, 40%)
-- Grayish Blue: hsl(231, 7%, 65%)
-- Light Grayish Blue: hsl(207, 33%, 95%)
+Dark Grayish Blue: hsl(227, 12%, 61%)
+Very Dark Blue: hsl(233, 12%, 13%)
+Very Pale Red: hsl(13, 100%, 96%)
+Vary Light Gray: hsl(0, 0%, 98%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 18px
+- Font size: 16px
 
-### Headings, Call-to-actions, Navigation
+### Font
 
-- Family: [Barlow Condensed](https://fonts.google.com/specimen/Barlow+Condensed)
-- Weights: 400, 700
+- Family: [Be Vietnam](https://fonts.google.com/specimen/Be+Vietnam)
+- Weights: 400, 500, 700
 
-### Body
+## Icons
 
-- Family: [Barlow](https://fonts.google.com/specimen/Barlow)
-- Weights: 400
+For the social icons, you can use the icons provided or a font icon library. Some suggestions for font icon libraries can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)
