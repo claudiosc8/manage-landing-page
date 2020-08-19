@@ -2,7 +2,7 @@
 
 **Check the deployed app [here](https://manage-landing-page-vert.vercel.app)**
 
-**Check report on Frontend Mentor [here](https://www.frontendmentor.io/solutions/manage-landing-page-using-react-WfqM4MYY0)**
+**Check the report on Frontend Mentor [here](https://www.frontendmentor.io/solutions/manage-landing-page-using-react-WfqM4MYY0)**
 
 ![Design preview for the Manage Landing page challenge](./design/desktop-preview.jpg)
 
